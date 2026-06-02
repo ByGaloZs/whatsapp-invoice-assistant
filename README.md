@@ -67,6 +67,16 @@ OPENAI_MODEL=gpt-4.1-mini
 
 If `OPENAI_API_KEY` is missing, the app returns mocked ticket data so the demo still runs locally.
 
+## OpenAI Vision Setup
+
+1. Create `.env.local` in the project root.
+2. Add `OPENAI_API_KEY` with your OpenAI API key.
+3. Add `OPENAI_MODEL=gpt-4.1-mini`.
+4. Restart `npm run dev` so Next.js reloads environment variables.
+5. Upload a ticket image in the simulator.
+
+If `OPENAI_API_KEY` is missing, the app uses mocked ticket extraction.
+
 ## Useful Commands
 
 ```bash
